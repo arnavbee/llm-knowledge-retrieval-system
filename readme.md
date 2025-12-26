@@ -41,7 +41,17 @@ Upload a PDF → Ask a question → Get an answer + cited snippets
 1. User question → Embedding  
 2. Similarity search in ChromaDB (top-k chunks)  
 3. Retrieved chunks → injected as context into the LLM prompt  
-4. LLM generates answer + citations  
+4. LLM generates answer + citations
+
+---
+   
+
+## Future Improvements
+- Support more file types (DOCX, TXT)
+- Better chunking strategies
+- Conversation memory
+- Multiple document queries
+
 
 ---
 
